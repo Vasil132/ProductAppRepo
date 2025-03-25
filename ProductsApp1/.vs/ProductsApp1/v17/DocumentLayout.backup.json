@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vasilios\\source\\repos\\ProductsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42FCFA31-A435-41C6-A173-8A45B669406A}|ProductsApp1.Tests\\ProductsApp1.Tests.csproj|c:\\users\\vasilios\\source\\repos\\productsapp1\\productsapp1.tests\\testsimpleproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42FCFA31-A435-41C6-A173-8A45B669406A}|ProductsApp1.Tests\\ProductsApp1.Tests.csproj|solutionrelative:productsapp1.tests\\testsimpleproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AD9CB1-008C-4AEE-A2F1-90F6C7E23D78}|ProductsApp1\\ProductsApp1.csproj|c:\\users\\vasilios\\source\\repos\\productsapp1\\productsapp1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AD9CB1-008C-4AEE-A2F1-90F6C7E23D78}|ProductsApp1\\ProductsApp1.csproj|solutionrelative:productsapp1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AD9CB1-008C-4AEE-A2F1-90F6C7E23D78}|ProductsApp1\\ProductsApp1.csproj|c:\\users\\vasilios\\source\\repos\\productsapp1\\productsapp1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6AD9CB1-008C-4AEE-A2F1-90F6C7E23D78}|ProductsApp1\\ProductsApp1.csproj|solutionrelative:productsapp1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestSimpleProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Vasilios\\source\\repos\\ProductsApp1\\ProductsApp1.Tests\\TestSimpleProductController.cs",
+              "RelativeDocumentMoniker": "ProductsApp1.Tests\\TestSimpleProductController.cs",
+              "ToolTip": "C:\\Users\\Vasilios\\source\\repos\\ProductsApp1\\ProductsApp1.Tests\\TestSimpleProductController.cs",
+              "RelativeToolTip": "ProductsApp1.Tests\\TestSimpleProductController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T22:16:10.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Vasilios\\source\\repos\\ProductsApp1\\ProductsApp1\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ProductsApp1\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Vasilios\\source\\repos\\ProductsApp1\\ProductsApp1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ProductsApp1\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T22:03:44.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Vasilios\\source\\repos\\ProductsApp1\\ProductsApp1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductsApp1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Vasilios\\source\\repos\\ProductsApp1\\ProductsApp1\\Models\\Product.cs",
+              "RelativeToolTip": "ProductsApp1\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:48:47.815Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
