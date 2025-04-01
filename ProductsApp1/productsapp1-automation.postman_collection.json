@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "a536ae6f-7ff2-41d1-8470-152a7b841b6e",
+		"name": "productsapp1-automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43666119",
+		"_collection_link": "https://vasil-205127.postman.co/workspace/vasil's-Workspace~ea7b4343-6f0b-4d71-8939-eb9e1098431a/collection/43666119-a536ae6f-7ff2-41d1-8470-152a7b841b6e?action=share&source=collection_link&creator=43666119"
+	},
+	"item": [
+		{
+			"name": "Get All Products",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"\r",
+							"pm.test(\"value of [0].Id to be 1\", () => {pm.expect(jsonData[0].Id).to.equal(1)});\r",
+							"pm.test(\"value of [0].Id to be 2\", () => {pm.expect(jsonData[1].Id).to.equal(2)});\r",
+							"pm.test(\"value of [0].Id to be 1\", () => {pm.expect(jsonData[2].Id).to.equal(3)});\r",
+							"\r",
+							"// Check the response status code is 200\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44303/api/products",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Products",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const product = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Product ID is defined\", function () {\r",
+							"    pm.expect(2).to.exist;\r",
+							"});\r",
+							"pm.test(\"Product ID is a number\", function () {\r",
+							"    pm.expect(2).to.be.a('number');\r",
+							"});\r",
+							"pm.test(\"Product ID is greater than 0\", function () {\r",
+							"    pm.expect(2).to.be.above(0);\r",
+							"});\r",
+							"pm.test(\"Product ID is not null\", function () {\r",
+							"    pm.expect(2).to.not.be.null;\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Product name is defined\", function () {\r",
+							"    pm.expect(2).to.exist;\r",
+							"});\r",
+							"pm.test(\"Product name is a string\", function () {\r",
+							"    pm.expect(2).to.be.a('string');\r",
+							"});\r",
+							"pm.test(\"Product name is not empty\", function () {\r",
+							"    pm.expect(2).to.have.lengthOf.above(0);\r",
+							"});\r",
+							"pm.test(\"Product name contains valid characters\", function () {\r",
+							"    pm.expect(2).to.match(/^[\\w\\s-]+$/);//help of chatgpt\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Product price is defined\", function () {\r",
+							"    pm.expect(2).to.exist;\r",
+							"});\r",
+							"pm.test(\"Product price is a number\", function () {\r",
+							"    pm.expect(2).to.be.a('number');\r",
+							"});\r",
+							"pm.test(\"Product price is non-negative\", function () {\r",
+							"    pm.expect(2).to.be.at.least(0);\r",
+							"});\r",
+							"pm.test(\"Product price is a realistic value\", function () {\r",
+							"    pm.expect(2).to.be.below(10000);  //help of chatgpt\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Product category is defined\", function () {\r",
+							"    pm.expect(2).to.exist;\r",
+							"});\r",
+							"pm.test(\"Product category is a string\", function () {\r",
+							"    pm.expect(2).to.be.a('string');\r",
+							"});\r",
+							"pm.test(\"Product category is not empty\", function () {\r",
+							"    pm.expect(2).to.have.lengthOf.above();\r",
+							"});\r",
+							"pm.test(\"Product category contains valid characters\", function () {\r",
+							"    pm.expect(2).to.match(/^[\\w\\s-]+$/); //help of chatgpt\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44303/api/products/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44303",
+					"path": [
+						"api",
+						"products",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
