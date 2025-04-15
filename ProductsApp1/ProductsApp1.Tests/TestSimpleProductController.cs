@@ -44,10 +44,13 @@ namespace ProductsApp.Tests
         {
             var testProducts = new Product[]
             {
-                new Product { Id = 1, Name = "Demo1", Price = 1 },
-                new Product { Id = 2, Name = "Demo2", Price = 3.75M },
-                new Product { Id = 3, Name = "Demo3", Price = 16.99M },
+                new Product { Id = 1, Name = "Potato Soup", Price = 42 },
+                new Product { Id = 2, Name = "Ball", Price = 100 },
+                new Product { Id = 3, Name = "Tape", Price = 45 },
                 new Product { Id = 4, Name = "Demo4", Price = 11.00M }
+            //new Product { Id = 1, Name = "Potato Soup", Category = "Schmoceries", Price = 42 },
+            //new Product { Id = 2, Name = "Ball", Category = "Hardware", Price = 100 },
+            //new Product { Id = 3, Name = "Tape", Category = "Clothes", Price = 45 }
             };
             return testProducts;
         }
